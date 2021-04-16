@@ -10,7 +10,7 @@ const githubApiToken = '';
 
 function logIssuesAsMarkdownLinks( title, issues ) {
 	console.log( '' );
-	console.log( `## \`${ title }\` (${ issues.length })` );
+	console.log( `## ${ issues.length } \`${ title }\`` );
 
 	issues.forEach( issue => {
 		const markdown = `- [${ issue.title }](${ issue.html_url })`;
