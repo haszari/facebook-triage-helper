@@ -1,0 +1,7 @@
+node_modules
+data
+vendor
+/dist
+tmp
+*.zip
+.DS_Store
